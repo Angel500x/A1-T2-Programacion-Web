@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+div {
+  background-color: #436b6d1e;
+  border: 1px solid #2c444649;
+  margin: 10px;
+  padding: 20px;
+}
+#CONVERTIR {
+background-color: rgb(138, 58, 241);
+border: 1px solid black;
+color: white;
+}
