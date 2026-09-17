@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro y calificacion de estudiantes</title>
+    <script src="js/ejercicio15.js"></script>
+</head>
+<body>
+    <h1>Registro y calificacion de estudiantes</h1>
+    <label for="nombre">Nombre de estudiante</label>
+    <input type="text" id="nombre" placeholder="nombre"><br>
+
+    <label for="calificacion">calificacion</label>
+    <input type="number" id="calificacion" placeholder="calificacion" min="0" max="100" step="any">
+    <br>
+
+    <input type="button" value="agregar estudiante" onclick="estudiante()">
+    <input type="button" value="calcular" onclick="calcular()">
+    <br>
+
+    <p>Estudiantes totales -> <span id="contar">0</span></p>
+
+    <label for="promedio">promedio</label>
+    <input type="text" id="promedio" readonly>
+    <br>
+    <label for="estudiantemax">Estudiante maxima calificacion</label>
+    <input type="text" id="estudiantemax" readonly>
+    <br>
+    <label for="estudiantemin">Estudiante minima calificacion</label>
+    <input type="text" id="estudiantemin" readonly>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Tareas</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/ejercicio17.js"></script>
+</head>
+<body>
+
+    <div class="div1">
+        <h2>Gestionar Tareas Pendientes</h2>
+
+        <label for="nuevaTarea">Nueva Tarea</label>
+        <input type="text" id="nuevaTarea" placeholder="Ej. Estudiar JavaScript">
+
+        <input type="button" value="Agregar Tarea" onclick="gestor.agregar()">
+
+        <div style="margin-top: 20px;">
+            <label>Lista de Tareas</label>
+            <ul id="listaTareas" style="padding-left: 0; list-style: none;"></ul>
+        </div>
+    </div>
+
+</body>
+</html>
